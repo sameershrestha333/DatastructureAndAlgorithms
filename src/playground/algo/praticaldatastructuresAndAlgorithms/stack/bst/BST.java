@@ -57,6 +57,28 @@ public class BST {
         }
         return parent.data;
     }
+
+    public void delete(int data) {
+        Node current = root;
+        Node parent;
+        while (current != null) {
+            parent = current;
+            if (data < current.data) {
+                current = current.leftChild;
+                if (current.data == data) {
+                    parent.leftChild = null;
+                    return;
+                }
+            } else {
+                current = current.rightChild;
+                if (current.data == data) {
+                    parent.rightChild = null;
+                    return;
+                }
+            }
+        }
+
+    }
 }
 
 
