@@ -1,9 +1,12 @@
+/*
 package leetcode.eightythree;
 
+*/
 /*
 Given a sorted linked list, delete all duplicates such that each element appear only once.
- */
-class Solution {
+ *//*
+
+class DeleteDuplicateLinkedList {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode current = head;
         while (current != null && current.next != null) {
@@ -15,4 +18,4 @@ class Solution {
         }
         return head;
     }
-}
+}*/
