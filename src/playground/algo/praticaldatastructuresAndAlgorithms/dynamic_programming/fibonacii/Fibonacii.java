@@ -14,8 +14,8 @@ public class Fibonacii {
     }
 
     public static void main(String[] args) {
-        System.out.println("DP "+new Fibonacii().fibonacciDP(100));
-        System.out.println("Without DP " + new Fibonacii().nativeFibonacci(100));
+        System.out.println("DP "+new Fibonacii().fibonacciDP(3));
+       // System.out.println("Without DP " + new Fibonacii().nativeFibonacci(100));
     }
 
     // It has exponential running time
