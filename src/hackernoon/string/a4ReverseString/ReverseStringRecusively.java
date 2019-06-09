@@ -1,4 +1,4 @@
-package hackernoon.string.a4ReverseString.hackernoon;
+package hackernoon.string.a4ReverseString;
 
 public class ReverseStringRecusively {
 
