@@ -25,8 +25,7 @@ public class RemoveDuplicatesJavaExample {
 		}
 	}
 	String str = "sdf";
-	str.index
-	
+
 
 	public static void main(String args[]) {
 		removeDuplicates(new int[] { 4, 3, 2, 4, 9, 2 });

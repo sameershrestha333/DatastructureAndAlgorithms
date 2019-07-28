@@ -18,5 +18,4 @@ public class CustomQueue {
 		queueArray = new int[this.size];
 	}
 	
-	public 
 }
