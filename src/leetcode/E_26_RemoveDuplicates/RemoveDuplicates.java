@@ -11,5 +11,6 @@ public class RemoveDuplicates {
             nums[j++] = nums[nums.length - 1];
         }
         return j;
+
     }
 }
